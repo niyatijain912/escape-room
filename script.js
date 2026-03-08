@@ -42,16 +42,14 @@ function checkPuzzle2() {
         document.getElementById("message").innerText = "Incorrect sequence. Try again.";
     }
 }
-function checkPuzzle3()
-{
-    let ans = document.getElementById("p3answer").value;
-    if(ans == "30")
-    {
+function checkPuzzle3() {
+    let ans = document.getElementById("p3answer").value.toLowerCase().trim();
+    
+    if (ans === currentRiddle.answer.toLowerCase()) {
         window.location.href = "win.html";
-    }
-    else
-    {
-        document.getElementById("message").innerText = "Wrong answer.";
+    } else {
+        document.getElementById("message").innerText = "Wrong answer. Try again.";
     }
 }
+
 window.onload = loadRandomRiddle;
