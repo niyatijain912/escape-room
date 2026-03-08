@@ -52,4 +52,4 @@ function checkPuzzle3() {
     }
 }
 
-window.onload = loadRandomRiddle;
+
