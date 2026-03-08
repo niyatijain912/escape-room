@@ -1,0 +1,22 @@
+[
+  { "question": "Decode ASCII: 83 89 83 84 69 77", "answer": "system", "hint": "83 is 'S', 89 is 'Y'." },
+  { "question": "Binary Bypass: What is 0110 in decimal?", "answer": "6", "hint": "4 + 2 + 0" },
+  { "question": "Reverse the String: 'retupmoC'", "answer": "computer", "hint": "Read it backwards." },
+  { "question": "Decode ASCII: 72 65 67 75 69 82", "answer": "hacker", "hint": "Check an ASCII table for 72." },
+  { "question": "Hexadecimal Hunt: What is '46' in text?", "answer": "f", "hint": "4th letter of the alphabet is D (64), so 70 (46 hex) is..." },
+  { "question": "Binary Logic: 1011 in decimal?", "answer": "11", "hint": "8 + 0 + 2 + 1" },
+  { "question": "Atbash Cipher: If A=Z, what is 'KBA'? ", "answer": "piz", "hint": "Wait, 'KBA' flipped is 'PZY'. Try 'ZMT' for 'ANG'." },
+  { "question": "Decode ASCII: 67 79 68 69", "answer": "code", "hint": "67 is 'C'." },
+  { "question": "What is the 8-bit binary for the number 1?", "answer": "00000001", "hint": "All zeros except the last bit." },
+  { "question": "Reverse the String: 'egassem'", "answer": "message", "hint": "The word is hidden in reverse." },
+  { "question": "Decode ASCII: 76 79 71 73 78", "answer": "login", "hint": "L-O-G..." },
+  { "question": "Hexadecimal Hunt: What is '58' in text?", "answer": "x", "hint": "It is a late letter in the alphabet." },
+  { "question": "Binary Logic: 1111 in decimal?", "answer": "15", "hint": "8 + 4 + 2 + 1" },
+  { "question": "Decode ASCII: 68 65 84 65", "answer": "data", "hint": "68 is 'D'." },
+  { "question": "Reverse the String: 'yxorP'", "answer": "proxy", "hint": "A common network term." },
+  { "question": "Decode ASCII: 70 73 76 69", "answer": "file", "hint": "70 is 'F'." },
+  { "question": "Hexadecimal Hunt: What is '4D' in text?", "answer": "m", "hint": "M is the 13th letter." },
+  { "question": "Binary Logic: 10001 in decimal?", "answer": "17", "hint": "16 + 1" },
+  { "question": "Atbash Cipher: Flip 'YVTRM' to find the word.", "answer": "begin", "hint": "A=Z, B=Y, C=X..." },
+  { "question": "Decode ASCII: 87 73 78", "answer": "win", "hint": "The final goal." }
+]

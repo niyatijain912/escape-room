@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;      
+  display: flex;           
+  justify-content: center; 
+  align-items: center;     
+  background-color: black;
+  color: #00ff00;
+  font-family: monospace;
+  overflow: hidden;       
+}
+.box{
+    background-color: #0d0d0d;
+    border:2px solid #00ff00;
+    height: 500px;
+    
+    display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  text-align: center; 
+  
+  width: 90%;
+  max-width: 600px;
+  padding: 40px;
+}
+
+p{
+    color:#ffffff;
+    font-size: 20px;
+    margin-top:100px;
+}
+input{
+
+padding: 10px;
+font-size: 16px;
+width: 100%;
+  max-width: 300px; 
+  margin: 10px 0;   
+  box-sizing: border-box;
+}
+
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family: monospace;
+  background-color: #00ff00;
+  color: black;
+  border: none;
+  cursor: pointer;
+
+  
+  align-self: flex-end; 
+  width: auto;          
+  margin-top: 20px;      
+}
+
+a {
+  align-self: flex-end;
+  text-decoration: none; 
+}
+button:hover{
+
+background-color: white;
+
+}
+.bg-video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1; /* Maintains aspect ratio while filling the screen */
+}
+h1 {
+  font-size: 3rem; 
+  text-transform: uppercase; 
+  margin-bottom: 20px;
+  text-shadow: 0 0 15px #00ff00; 
+}
+
+h2 {
+  font-size: 2rem; 
+  color: #00ff00;
+  text-shadow: 0 0 10px #00ff00; 
+}
