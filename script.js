@@ -1,5 +1,5 @@
 let currentRiddle = {};
-
+let atp=0;
 
 async function loadPuzzle(fileName) {
     try {
@@ -29,8 +29,10 @@ function checkPuzzle1()
     
     if (ans === currentRiddle.answer.toLowerCase()) {
         window.location.href = "puzzle2.html";
-    } else {
+    } 
+    else {
         document.getElementById("message").innerText = "Wrong answer. Try again.";
+        atp++;
 }
 }
 
@@ -38,8 +40,10 @@ function checkPuzzle2() {
     let ans = document.getElementById("p2answer").value.toLowerCase().trim();
     if (ans === currentRiddle.answer.toLowerCase()) {
         window.location.href = "puzzle3.html";
-    } else {
+    } 
+    else {
         document.getElementById("message").innerText = "Incorrect sequence. Try again.";
+        atp++;
     }
 }
 function checkPuzzle3() {
@@ -47,9 +51,17 @@ function checkPuzzle3() {
     
     if (ans === currentRiddle.answer.toLowerCase()) {
         window.location.href = "win.html";
-    } else {
+    } 
+    else {
         document.getElementById("message").innerText = "Wrong answer. Try again.";
+        atp++;
     }
+}
+function showhint(){
+    if(atp<=3)
+        document.getElementById("message").innerText="No need for Hint yet... Think harder!";
+    else
+        document.getElementById("message").innerText="HINT: "+ currentRiddle.hint;
 }
 
 
